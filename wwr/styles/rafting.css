@@ -31,32 +31,35 @@ header img {
     height: 150px;
 }
 
-main{
+main {
     padding: 20px;
     max-width: 1800px;
     margin: 10px 0;
     background-color: #ffffff1a;
     border-radius: 8px;
 }
-main h1{
+
+main h1 {
     text-align: center;
 }
-.info{
+
+.info {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 
 }
 
-.info strong{
+.info strong {
     font-size: 30px;
     color: var(--text-color2);
     border-bottom: var(--text-color2) solid;
 }
 
-.info p{
+.info p {
     font-size: 20px;
 }
-.contact{
+
+.contact {
     padding-top: 80px;
 }
 
@@ -141,27 +144,30 @@ section h2 {
 }
 
 .center-image {
-    width: 300x;
+    width: 300px;
     height: 200px;
     padding: 0;
     margin: 0;
 }
 
-.company-info, .employees, .contact-form {
-    margin-bottom: 20px; 
+.company-info,
+.employees,
+.contact-form {
+    margin-bottom: 20px;
 }
 
-.company-info p, .employees p {
+.company-info p,
+.employees p {
     text-align: center;
 }
 
 .map {
     display: flex;
     justify-content: center;
-    
+
 }
 
-iframe{
+iframe {
     width: 500px;
 }
 
@@ -184,12 +190,14 @@ iframe{
     margin-bottom: 10px;
     border: #0a0b0c solid;
 }
-.employee p{
+
+.employee p {
     font-size: 25px;
     color: var(--text-color2);
     border-bottom: var(--text-color2)solid;
 }
-.contact-form{
+
+.contact-form {
     margin: 0 250px;
     padding: 30px;
     background: #fff;
@@ -242,6 +250,7 @@ footer {
 footer a {
     text-decoration: none;
 }
+
 .text {
     grid-column-start: 2;
     text-align: center;
