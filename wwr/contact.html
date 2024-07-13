@@ -76,16 +76,16 @@
                     </div>
                     <div class="form-group">
                         <p>Purpose of the Message:</p>
-                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                        <label><input type="radio" name="purpose" value="website"> Website Suggestion</label>
+                        <label><input type="radio" name="purpose" id="purpose-general" value="general"> General Inquiry</label>
+                        <label><input type="radio" name="purpose" id="purpose-reservation" value="reservation"> Reservation Question</label>
+                        <label><input type="radio" name="purpose" id="purpose-website" value="website"> Website Suggestion</label>
                     </div>
                     <div class="form-group">
                         <label for="message">Your Message:</label>
                         <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly
+                        <label><input type="checkbox" name="newsletter" id="newsletter"> Please subscribe me to the monthly
                             newsletter</label>
                     </div>
                     <button type="submit">Submit</button>
