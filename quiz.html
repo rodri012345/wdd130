@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Quiz</title>
+    <meta name="description" content="This page is about a quiz about html and css">
+    <meta name="author" content="Rodrigo Quena">
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
 
 <body>
     <div class="forms">
         <div class="title">
-            <img src="/images/chech-icon.png" alt="" class="img">
+            <img src="/images/chech-icon.png" alt="check icon image" class="img">
             <h1>HTML & CSS Quiz</h1>
         </div>
         <form action="#" method="POST">
@@ -27,13 +29,16 @@
                 <label for="q3"><span class="number">3. </span>Which of the following is a valid CSS comment?</label>
                 <select id="q3" name="q3" required>
                     <option value="" selected disabled>Choose One ...</option>
-                    <option value="h1">&lt;h1&gt;</option>
-                    <option value="h2">&lt;h2&gt;</option>
-                    <option value="h3">&lt;h3&gt;</option>
+                    <option value="h1">&lt;/*&gt;</option>
+                    <option value="h2">&lt;#&gt;</option>
+                    <option value="h3">&lt;<! --&gt;</option>
                 </select>
             </div>
             <div class="form-group">
                 <label for="q4"><span class="number">4. </span>What is the botton margin given this declaration?</label>
+                <div class="margin-img">
+                    <img src="/images/margin-img.png" alt="margin test image">
+                </div>
                 <input type="number" id="q4" name="q4" min="1" max="10" required>
             </div>
             <div class="form-group">
