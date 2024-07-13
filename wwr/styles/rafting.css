@@ -4,6 +4,7 @@
     --primary-color: #2c3e50;
     --secondary-color: #18bc9c;
     --text-color: #333;
+    --text-color2: #0056b3;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
     max-width: 1200px;
     padding: 0;
     margin: 0 auto;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -27,6 +29,35 @@ header {
 header img {
     width: 200px;
     height: 150px;
+}
+
+main{
+    padding: 20px;
+    max-width: 1800px;
+    margin: 10px 0;
+    background-color: #ffffff1a;
+    border-radius: 8px;
+}
+main h1{
+    text-align: center;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.info strong{
+    font-size: 30px;
+    color: var(--text-color2);
+    border-bottom: var(--text-color2) solid;
+}
+
+.info p{
+    font-size: 20px;
+}
+.contact{
+    padding-top: 80px;
 }
 
 nav a {
@@ -104,13 +135,99 @@ section h2 {
     color: rgba(200, 200, 9, 0.766);
     display: grid;
     justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-bottom: rgba(200, 200, 9, 0.766) solid;
 }
 
 .center-image {
-    width: 300px;
+    width: 300x;
     height: 200px;
     padding: 0;
     margin: 0;
+}
+
+.company-info, .employees, .contact-form {
+    margin-bottom: 20px; 
+}
+
+.company-info p, .employees p {
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    
+}
+
+iframe{
+    width: 500px;
+}
+
+.employees {
+    margin: 40px;
+}
+
+.employee {
+    margin: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.employee img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: #0a0b0c solid;
+}
+.employee p{
+    font-size: 25px;
+    color: var(--text-color2);
+    border-bottom: var(--text-color2)solid;
+}
+.contact-form{
+    margin: 0 250px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
 }
 
 footer {
