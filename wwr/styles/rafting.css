@@ -163,6 +163,30 @@ nav a:hover {
     border-radius: 8px;
 }
 
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.information img{
+    width: 300px;
+    height: 300px;    
+    border-radius: 10px;
+}
+
+.information p{
+    font-size: 40px;
+    background-color:#18bc9c;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.information p:hover{
+    background-color: #0056b3;
+}
+
+
 .newsletter {
     text-align: center;
     padding: 20px;
@@ -185,7 +209,7 @@ nav a:hover {
 .newsletter-form input {
     padding: 10px;
     margin-bottom: 10px;
-    width: 80%;
+    width: 150%;
     max-width: 300px;
     border-radius: 4px;
     border: 1px solid #ccc;
@@ -199,6 +223,7 @@ nav a:hover {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 30px;
 }
 
 .newsletter-form button:hover {
@@ -215,13 +240,9 @@ nav a:hover {
 }
 
 .call-to-action a {
-    color: var(--secondary-color);
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
-}
-
-.call-to-action a:hover {
-    text-decoration: underline;
 }
 
 .offerings {
